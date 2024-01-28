@@ -1,0 +1,189 @@
+@font-face {
+    font-family: 'ChaletComprime';
+    src: url('../fontes/ChaletComprime.ttf') format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    background-color: #282828;
+    color: #fff;
+}
+
+.header {
+    height: 80px;
+    background-color: #0b0b0b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    border-bottom: 1px solid #282828;
+}
+
+.header .logo {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.logo .insomniac {
+    width: 80px;
+}
+
+.logo hr {
+    height: 40px;
+}
+
+.logo .PS5 {
+    width: 160px;
+    height: 40px;
+}
+
+.header .menu {
+    display: flex;
+    gap: 30px;
+}
+
+.header .menu li a {
+    padding: 30px;
+    color: #e8e8e8;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1px;
+    transition: 0.6s;
+}
+
+.header .menu li a:hover {
+    padding-bottom: 2px solid #fff;
+}
+
+.home {
+    display: flex;
+    position: relative;
+    min-height: calc(100vh - 80px);
+}
+
+.home::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 90%;
+    background: linear-gradient(60deg, rgba(0, 0, 0, .85), rgba(0, 0, 0, .7) 35%, transparent 40%);
+}
+
+.imgBG {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    object-fit: cover;
+}
+
+.home .info {
+    position: absolute;
+    z-index: 1;
+    min-height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+    padding: 350px 80px 80px 100px;
+    max-width: 780px;
+}
+
+.home .info img {
+    max-width: 380px;
+}
+
+.home .info .title {
+    font-family: 'ChaletComprime';
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.home .info .text {
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.pay {
+    display: flex;
+    position: relative;
+}
+
+.pay .buyNow {
+    position: absolute;
+    min-height: calc(100vh - 140px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+    padding: 50px 80px;
+    max-width: 780px;
+}
+
+.buyNow {
+    text-align: center;
+    margin: 130px 120px;
+    background-color: rgba(0, 0, 0, .7);
+    border-radius: 5px;
+}
+
+.buyNow .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 500px;
+}
+
+.card .capa {
+    width: 230px;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.capa:hover {
+    transform: scale(1.02);
+}
+
+.buyNow .info h3 {
+    font-family: 'ChaletComprime';
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.btn-buyNow {
+    background-color: rgba(255, 255, 255, .1);
+    border: 0.5px solid #fff;
+    color: #fff;
+    border-radius: 4px;
+    font-family: 'ChaletComprime';
+    font-size: 28px;
+    text-align: center;
+    padding: 20px 40px;
+    text-transform: uppercase;
+    width: 100%;
+    cursor: pointer;
+    transition: all .3s ease-in;
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+    box-shadow: 0px 15px 50px 5px black;
+}
+
+.btn-buyNow:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-6px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
