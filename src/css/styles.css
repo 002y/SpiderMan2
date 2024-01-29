@@ -5,9 +5,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #282828;
     color: #fff;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #585858;
+    border-radius: 6px;
 }
 
 .header {
@@ -108,11 +121,12 @@ body {
 .pay {
     display: flex;
     position: relative;
+    min-height: 100vh;
 }
 
 .pay .buyNow {
     position: absolute;
-    min-height: calc(100vh - 140px);
+    /* min-height: calc(100vh - 140px); */
     display: flex;
     flex-direction: column;
     justify-content: center;

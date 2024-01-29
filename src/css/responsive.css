@@ -1,0 +1,269 @@
+@media screen and (max-width: 1320px) {
+    .buyNow {
+        margin: 80px 120px;
+    }
+
+    .home .info {
+        padding: 300px 80px 80px 100px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .buyNow {
+        margin: 40px 120px;
+    }
+
+    .home .info {
+        gap: 25px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .home .info img {
+        max-width: 250px;
+    }
+
+    .buyNow {
+        margin: 10px 100px;
+    }
+
+    .home .info {
+        gap: 28px;
+        padding: 300px 80px 80px 50px;
+        max-width: 550px;
+    }
+
+    .card .capa {
+        width: 160px;
+    }
+
+    .pay .buyNow {
+        padding: 20px 100px;
+        max-width: 780px;
+    }
+
+    .buyNow .info h3 {
+        font-size: 40px;
+    }
+
+    .btn-buyNow {
+        font-size: 20px;
+    }
+
+    .buyNow .info strong {
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .home .info {
+        padding: 10px 80px 60px 40px;
+    }
+
+    .home .info {
+        font-size: 90%;
+    }
+
+    .home .info .text {
+        font-size: 100%;
+    }
+
+    .header .menu {
+        display: none;
+    }
+
+    .home .info {
+        justify-content: space-between;
+    }
+
+    .home .info .logoSpiderman {
+        position: absolute;
+        max-width: 250px;
+        top: 60%;
+        right: 220px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .home .info {
+        padding: 10px 80px 30px 40px;
+    }
+
+    .home .info .logoSpiderman {
+        position: absolute;
+        top: 65%;
+        right: 45%;
+    }
+
+    .home::after {
+        width: 100%;
+        background: linear-gradient(to top, rgba(0, 0, 0, .85), rgba(0, 0, 0, .7) 35%, transparent 50%);
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .home .info .logoSpiderman {
+        max-width: 80px;
+        top: 63%;
+        right: 65%;
+    }
+
+    .buyNow{
+        margin: 10%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .home .info img {
+        max-width: 200px;
+    }
+
+    .home .info .logoSpiderman {
+        top: 66%;
+        right: 60%;
+    }
+
+    .home .info .text {
+        font-size: 80%;
+    }
+
+    .home .info .title {
+        font-size: 160%;
+    }
+
+    .card .capa {
+        width: 140px;
+    }
+
+    .buyNow .info h3 {
+        font-size: 30px;
+    }
+
+    .btn-buyNow {
+        padding: 10px 10px;
+    }
+
+    .pay .buyNow{
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .home .info .logoSpiderman {
+        top: 66%;
+    }
+
+    .home .info .text {
+        font-size: 79%;
+    }
+
+    .home .info .title {
+        font-size: 160%;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .home .info .logoSpiderman {
+        top: 66%;
+    }
+
+    .home .info .text {
+        font-size: 75%;
+    }
+}
+
+
+@media screen and (max-width: 390px) {
+    .home .info .logoSpiderman {
+        top: 60%;
+    }
+
+    .home .info .text {
+        font-size: 70%;
+    }
+
+    .home .info .title {
+        font-size: 150%;
+    }
+
+    .buyNow{
+        right: -5%;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .buyNow{
+        right: -6%;
+    }
+}
+
+@media screen and (max-width: 370px){
+    .buyNow{
+        right: -7%;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .buyNow{
+        right: -8%;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .buyNow{
+        right: -9%;
+    }
+}
+
+@media screen and (max-width: 330px){
+    .buyNow{
+        right: -10%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .home .info .text {
+        font-size: 65%;
+    }
+
+    .buyNow{
+        right: -20%;
+        margin-top: 20%;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .home .info .logoSpiderman {
+        top: 58%;
+    }
+
+    .home .info .text {
+        font-size: 60%;
+    }
+}
+
+@media screen and (max-width: 265px) {
+    .home .info .logoSpiderman {
+        top: 54%;
+        right: 50%;
+    }
+
+    .home .info img {
+        max-width: 150px;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    .home .info .logoSpiderman {
+        top: 50%;
+    }
+
+    .home .info .text {
+        font-size: 60%;
+    }
+
+    .home .info img {
+        max-width: 130px;
+    }
+}
